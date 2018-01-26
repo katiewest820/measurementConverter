@@ -1,0 +1,9 @@
+.resultsText{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.resultsText h2{
+  width: 75%;
+  margin: auto;
+}

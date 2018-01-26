@@ -6,9 +6,9 @@ import './results.css';
 export class Results extends React.Component{
 
   render(){
-    let results = store.getState().results
+    let results = store.getState().results;
     return(
-      <div>
+      <div className="resultsText">
         <h2>{results}</h2>
       </div>
     )

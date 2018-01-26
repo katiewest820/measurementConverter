@@ -1,5 +1,5 @@
 .container{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .pageTitle{
@@ -32,6 +32,7 @@
   font-size: 18px;
   padding: 10px 15px;
   border: none;
+  outline: none;
 }
 
 .inputBtnsDiv{
@@ -40,7 +41,7 @@
   grid-template-columns: 80% 20%;
   margin:auto;
   margin-top: 20px;
-  width: 40%;
+  width: 60%;
   justify-items: center;
 }
 
@@ -50,6 +51,13 @@
   padding: 10px 15px;
   width: 90%;
   font-size: 18px;
+  outline: none;
+}
+
+button{
+  font-weight: bold;
+  background-color: white;
+  border: solid 2px black;
 }
 
 .submitInput{
@@ -64,6 +72,12 @@
   padding: 10px;
 }
 
+button:hover{
+  background-color: black;
+  border: none;
+  color:white;
+}
+
 @media (min-width: 640px){
 
   .pageTitle{
@@ -76,6 +90,10 @@
 
   .formContainer select, .formContainer option{
     font-size: 20px;
+  }
+
+  .inputBtnsDiv{
+    width: 40%;
   }
 }
 

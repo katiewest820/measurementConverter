@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {userInput, resetValues} from '../actions/actions'
+import {userInput, resetValues} from '../actions/actions';
 import store from '../store';
 import Results from './results';
 import './main.css';
@@ -56,9 +56,7 @@ export class Main extends React.Component{
           <button className="submitInput" onClick={this.sendInputToReducer.bind(this)}>Submit</button>
           <button className="resetInput" onClick={this.resetValues.bind(this)}>Reset</button>
         </div>  
-        <div className="resultsDiv">
-          <Results />
-        </div>
+        <Results />
       </div>
     )
   }
